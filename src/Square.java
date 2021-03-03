@@ -48,7 +48,7 @@ public class Square extends Shape2D {
      */
     @Override
     public String toString() {
-        return "[class Square]" + super.toString() + " and sideLength = " + sideLength;
+        return "[class " + getClass() + "]" + super.toString() + " and sideLength = " + sideLength;
     }
 
     /**

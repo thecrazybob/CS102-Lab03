@@ -51,7 +51,7 @@ public class Rectangle extends Shape2D {
      */
     @Override
     public String toString() {
-        return "[class Rectangle]" + super.toString() + ", height = " + height + " and width = " + width;
+        return "[class " + getClass() + "]" + super.toString() + ", height = " + height + " and width = " + width;
     }
 
     /**
