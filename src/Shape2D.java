@@ -45,7 +45,7 @@ public abstract class Shape2D {
     @Override
     public String toString() {
 
-        return "x = " + this.x + "," + " y = " + this.y;
+        return "[" + this.getClass() + "]" + "x = " + this.x + "," + " y = " + this.y;
 
     }
 

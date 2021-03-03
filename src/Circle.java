@@ -46,7 +46,7 @@ public class Circle extends Shape2D {
      */
     @Override
     public String toString() {
-        return "[class " + getClass() + "]" + super.toString() + " and radius = " + this.radius;
+        return super.toString() + " and radius = " + this.radius;
     }
 
     /**

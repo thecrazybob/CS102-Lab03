@@ -89,8 +89,8 @@ public class ShapeTest {
                 + shapes[2].toString() + "]");
 
         // determine which shape is largest
-        System.out.println(findLargestArea(shapes).getClass() + " has largest area");
-        System.out.println(findLongestPerimeter(shapes).getClass() + " has longest perimeter");
+        System.out.println(findLargestArea(shapes) + " has largest area");
+        System.out.println(findLongestPerimeter(shapes) + " has longest perimeter");
 
         // print distance between shapes
         System.out.println("Distance between shape 1 and 2 is " + shapes[0].calculateDistance(shapes[1]));
